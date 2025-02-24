@@ -42,7 +42,7 @@ const App = () => {
     <div className="app-container">
       <header className="app-header">
         <img src="/logo.png" alt="Logo" className="app-logo" />
-        <p className="animated-subtitle">Swipe through a funky universe of random trivia!</p>
+        <p className="animated-subtitle">Neural Interface: Accessing Random Data Fragments...</p>
       </header>
 
       <main className="app-main">
