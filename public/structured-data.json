@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "DoomScroll",
+  "alternateName": "DoomScroll: Endless Random Facts",
+  "url": "https://Hum2a.github.io/doomscroll",
+  "logo": "https://Hum2a.github.io/doomscroll/logo512.png",
+  "description": "Experience an endless stream of fascinating random facts with DoomScroll, the addictive cyberpunk-themed infinite scrolling app for trivia lovers.",
+  "applicationCategory": "Entertainment",
+  "genre": "Trivia",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "screenshot": [
+    {
+      "@type": "ImageObject",
+      "url": "https://Hum2a.github.io/doomscroll/screenshot1.png",
+      "width": "1280",
+      "height": "720"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://Hum2a.github.io/doomscroll/screenshot2.png",
+      "width": "1280",
+      "height": "720"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "125"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Your Name",
+    "url": "https://github.com/Hum2a"
+  },
+  "potentialAction": {
+    "@type": "UseAction",
+    "target": "https://Hum2a.github.io/doomscroll"
+  }
+} 

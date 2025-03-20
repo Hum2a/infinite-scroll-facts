@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "DoomScroll",
+  "name": "DoomScroll: Endless Random Facts",
+  "description": "An endless stream of fascinating random facts with a cyberpunk UI",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,16 +11,42 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
+  "scope": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "theme_color": "#121212",
+  "background_color": "#121212",
+  "categories": ["entertainment", "education", "trivia"],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Load More Facts",
+      "short_name": "More Facts",
+      "description": "Load more random facts",
+      "url": "/?action=load-more",
+      "icons": [{ "src": "shortcut-icon.png", "sizes": "192x192" }]
+    }
+  ]
 }

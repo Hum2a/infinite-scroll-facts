@@ -1,0 +1,8 @@
+# security.txt file for DoomScroll
+# Reference: https://securitytxt.org/
+
+Contact: mailto:your.email@example.com
+Expires: 2025-12-31T23:59:59+00:00
+Preferred-Languages: en
+Canonical: https://yourusername.github.io/doomscroll/.well-known/security.txt
+Policy: https://github.com/yourusername/doomscroll/security/policy 
